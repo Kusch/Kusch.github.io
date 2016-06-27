@@ -2,7 +2,7 @@
   [
       {TITLE: "IPA", SRC: "./Images/diploma.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Abschlussarbeit: Patientenprofilverwaltungs- und Management-Tool", LINK: "http://www.google.ch/"},
       {TITLE: "SPEEDVIEWER", SRC: "./Images/speed01.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Viewer zur Einsicht in Patientenakten"},
-      {TITLE: "KSA", SRC: "./Images/kreuzer01.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Kreuzer"},
+      {TITLE: "KSA", SRC: "./Images/kreuzer01.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Kreuzer: Interface development"},
       {TITLE: "4", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png", LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
       {TITLE: "Adminslair", SRC: "./Images/logo-48.png", LOGO:"./Images/logo-48.png", LOGOSRC:"#", DATE:"2016", INFO: "Admin island"},
       {TITLE: "6", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
