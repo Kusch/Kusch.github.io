@@ -6,7 +6,7 @@
       {TITLE: "4", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png", LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
       {TITLE: "Adminslair", SRC: "./Images/logo-48.png", LOGO:"./Images/logo-48.png", LOGOSRC:"#", DATE:"2016", INFO: "Admin island"},
       {TITLE: "6", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "7", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
+      {TITLE: "7", SRC: "./Images/background1.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"27.06.2016", INFO: "Portfolio"},
       {TITLE: "8", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
       {TITLE: "9", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
       {TITLE: "10", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
