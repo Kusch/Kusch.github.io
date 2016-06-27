@@ -16,10 +16,15 @@ h2{
 }
 hr
 {
-  margin: 5px 0px;
+    margin: 5px 0px;
 }
 #body
 {
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 10px;
+    border-left: 3px double grey;
+    border-right: 3px double grey;
+    
     min-height: -webkit-calc(100% - 41px);
     min-height: -moz-calc(100% - 41px);
     min-height: calc(100% - 41px);
@@ -45,65 +50,61 @@ footer
 }
 .info
 {
-  font-size: 12px;
-  margin-top: 4px;
+    font-size: 12px;
+    margin-top: 4px;
 }
 .td_proTitle
 {
-  width: 100%;
-  vertical-align: top;
-  border: 1px solid #887e6a;
-  border-radius: 3px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 2px;
-  cursor: default;
+    width: 100%;
+    vertical-align: top;
+    border: 1px solid #887e6a;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    cursor: default;
 }
 .grid_left, .grid_right
 {
-  background-color: #dedede;
-  width: 50%;
-  max-width: 300px;
-  min-width: 300px;
+    background-color: #dedede;
+    width: 50%;
+    max-width: 300px;
+    min-width: 300px;
 }
 .grid_right
 {
-  height: inherit;
-  float: left;
-  margin-top: -385px;
-  left: 300px;
-  position: relative;
+    height: inherit;
+    float: left;
+    margin-top: -385px;
+    left: 300px;
+    position: relative;
 }
 .tr_projects
 {
-  border-bottom: 1px solid red;
+    border-bottom: 1px solid red;
 }
-
 #div_proListe
-{
-  width: 260px;
+{   
+    width: 260px;
 }
 #div_proListe_header
 {
-  background-color: #fff;
-  max-width: 100%;
-  border-top: 1px solid #4d846c;
-  border-left: 1px solid #4d846c;
-  border-right: 1px solid #4d846c;
-  padding: 5px;
+    background-color: #fff;
+    max-width: 100%;
+    border-top: 1px solid #4d846c;
+    border-left: 1px solid #4d846c;
+    border-right: 1px solid #4d846c;
+    padding: 5px;
 }
 #div_proListe_body
 {
-  background-color: #dedede;
-  padding: 5px;
-  border: 1px solid #4d846c;
-  overflow: auto;
-  max-height:200px;
-  max-width: 100%;
+    background-color: #dedede;
+    padding: 5px;
+    border: 1px solid #4d846c;
+    overflow: auto;
+    max-height:200px;
+    max-width: 100%;
 }
-
-
-
 #div_changelog
 {
   max-height:200px;
