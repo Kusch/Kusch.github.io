@@ -20,7 +20,8 @@
   var Changelog =
   [
     {VNR: "0.3.0", TITLE: "Basics", DATE: "18.06.2016"},
-    {VNR: "0.4.0", TITLE: "Changelog", DATE: "26.06.2016"}
+    {VNR: "0.4.0", TITLE: "Changelog", DATE: "26.06.2016"},
+    {VNR: "0.4.2", TITLE: "github upload", DATE: "27.06.2016"}
   ];
 
 function main(){
