@@ -2,7 +2,11 @@
 {
     margin: 0px;
     padding: 0px;
-     font-family: Sans-Serif;
+    font-family: Sans-Serif;
+}
+html
+{
+    background-image: url(".Images/background1.jpg");
 }
 h1{
     margin-bottom: 20px;
