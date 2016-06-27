@@ -14,6 +14,16 @@
 		<h1><img src="./Images/logo-48.png">Adminslair</h1>
 		<hr>
 			<h2>Serverstatus</h2>
+			<div id="server_status">
+				<table style="margin-left: auto; margin-right: auto;">
+					<tr><td colspan="2" style="text-align: center; font-weight: bold;">Server-Check<td></tr>
+					<tr><td class="server_status" style="font-weight: bold;">Server</td><td><span class="server_status" style="font-weight: bold;">Status</span></td></tr>
+				<tr id="tr_Server"></tr>
+				<tr><td colspan="2" style="text-align: right;font-weight: bold;"><button id="btn_rdy"onclick="retryServerStatus();">Retry</button><td></tr>
+				<tr><td colspan="2"><span style="font-size: 14px;">Last try:</span>
+				<span id="lastTry" style="font-size: 12px;"></span></td></tr>
+				</table>
+			</div>
 		<hr>
 			<h2>Animationen</h2>
 			<button class="btn" onclick="myMove()">Click Me</button> 
@@ -85,7 +95,7 @@
 		&copy; 
 		<span>Adminslair 2016</span> 
 		<img src="./Images/logo-48.png" height="20px">
-		<span style="float:right; padding: 10px;">Kuschelbär</span> 
+		<span style="float:right; padding: 10px;">Kuschel aka Half</span> 
 		<br>
 		<span style="font-size: 12px;">Last update:</span>
 		<span style="font-size: 12px;" id="span_lastupdate"></span>
