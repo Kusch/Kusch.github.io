@@ -1,27 +1,23 @@
   var ProjectList =
   [
-      {TITLE: "IPA", SRC: "./Images/diploma.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Abschlussarbeit: Patientenprofilverwaltungs- und Management-Tool", LINK: "http://www.google.ch/"},
-      {TITLE: "SPEEDVIEWER", SRC: "./Images/speed01.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Viewer zur Einsicht in Patientenakten"},
-      {TITLE: "KSA", SRC: "./Images/kreuzer01.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Kreuzer: Interface development"},
-      {TITLE: "4", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png", LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "Adminslair", SRC: "./Images/logo-48.png", LOGO:"./Images/logo-48.png", LOGOSRC:"#", DATE:"2016", INFO: "Admin island"},
-      {TITLE: "6", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "7", SRC: "./Images/background1.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"27.06.2016", INFO: "Portfolio"},
-      {TITLE: "8", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "9", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "10", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "11", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "12", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "13", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "14", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "15", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"},
-      {TITLE: "16", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"1.1.1970", INFO: "x"}
+      {TITLE: "IPA", SRC: "./Images/diploma01.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Abschlussarbeit: Patientenprofilverwaltungs- und Management-Tool", LINK: "http://www.google.ch/"},
+      {TITLE: "SPEEDVIEWER", SRC: "./Images/speed02.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Viewer zur Einsicht in Patientenakten"},
+      {TITLE: "KSA", SRC: "./Images/ksa_logo.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC: "http://legon.ch/", DATE:"2016", INFO: "Kreuzer: Interface development"},
+      {TITLE: "Leibundgut", SRC: "./Images/lupe03.jpg", LOGO:"./Images/legon01.jpg", LOGOSRC:"http://legon.ch/", DATE:"2016", INFO: "Patientenviewer (Liestal)"},
+      {TITLE: "Adminslair", SRC: "./Images/pinup.jpg", LOGO:"./Images/logo-48.png", LOGOSRC:"#", DATE:"2016", INFO: "Admin island"},
+      {TITLE: "6", SRC: "./Images/background1.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"01.01.1970", INFO: "x"},
+      {TITLE: "7", SRC: "./Images/background1.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"01.01.1970", INFO: "x"},
+      {TITLE: "8", SRC: "./Images/background1.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"01.01.1970", INFO: "x"},
+      {TITLE: "9", SRC: "./Images/helm01.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"01.01.1970", INFO: "x"},
+      {TITLE: "10", SRC: "./Images/helm02.jpg", LOGO:"./Images/logo-48.png",LOGOSRC:"#", DATE:"01.01.1970", INFO: "x"}
   ];
   var Changelog =
   [
     {VNR: "0.3.0", TITLE: "Basics", DATE: "18.06.2016"},
     {VNR: "0.4.0", TITLE: "Changelog", DATE: "26.06.2016"},
-    {VNR: "0.4.2", TITLE: "github upload", DATE: "27.06.2016"}
+    {VNR: "0.4.2", TITLE: "github upload", DATE: "27.06.2016"},
+    {VNR: "0.5.0", TITLE: "added 'praktikum'", DATE: "04.07.2016"},
+    {VNR: "0.5.1", TITLE: "added 'news'", DATE: "04.07.2016"}
   ];
 
 function main(){
@@ -30,6 +26,7 @@ function main(){
     getProjects();
     getProList();
     getChangelog();
+    load_textfile();
 }
 function getProList()
 {
@@ -54,7 +51,7 @@ function getProjects()
   var html7 = "</span><br><span class='datum'>";
   var html8 = "</span></td></tr>";                      //logo datum
 
-  for (var i = 0; i < 12; i++) {
+  for (var i = 0; i < ProjectList.length; i++) {
 
     var html = html1 + ProjectList[i].LINK + html2 + ProjectList[i].SRC + html3 + ProjectList[i].TITLE + html4 + ProjectList[i].LOGOSRC + html5 + ProjectList[i].LOGO + html6 + ProjectList[i].INFO + html7 + ProjectList[i].DATE + html8;
  
@@ -75,7 +72,7 @@ function getProjects()
 function getChangelog()
 {
   var html1 = "<tr><td style='font-style: italic;'>"
-  var html2 = "</td><td style='padding: 0px 5px;'>";
+  var html2 = "</td><td style='text-align: left; padding: 0px 0px 0px 15px;'>";
   var html3 = "</td><td style='font-size: 12px;'>";
   var html4 = "</tr>";
    for (var i = 0; i < Changelog.length; i++)
@@ -85,7 +82,23 @@ function getChangelog()
    }
    $('#span_lastupdate').append(Changelog[(Changelog.length - 1)].DATE);
 }
-
+function load_textfile()
+{
+  $( "#div_news" ).load("news.txt");
+  $( "#txt_praktikum" ).load("Praktikum.txt");
+}
+function show_bericht(){
+  if ($('#btn_praktikum').html() !== "-")
+  {
+    $('#btn_praktikum').html("-");
+    $('#txt_praktikum').css("display","inline");
+  }
+  else
+  {
+    $('#btn_praktikum').html("+");
+    $('#txt_praktikum').css("display","none");
+  }
+}
 function myMove() {
     move();
   var elem = document.getElementById("myAnimation");   

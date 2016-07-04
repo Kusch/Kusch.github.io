@@ -1,0 +1,32 @@
+Praktikum 23.11.2015 - 31.07.2016
+
+Allgemeines
+> Digitalisieren von Formularen
+> Digitalisieren und Aufarbeiten von Texten und Bildern
+> Zuordnen / Umzuordnen
+> Testing von gesamt Systemen
+> Erlangen von Programmiergrundkenntnissen (SNAP)
+
+Programme
+[Spital Liestal]
+> UI-Optimierungen (Kreuzer-Liestal)
+[Kantonsspital Aargau]
+> Kardiologie Liestal-Viewer (Leibundgut) && Patientenviewer Liestal (Leibundgut) 
+> Speedviewer
+> Patientenprofil-Verwaltungs- und Managementtool (IPA) [Forschungsabteilung]
+
+Kleinere-Programme
+> Testumgebung für Service
+
+Verwendete Tools und Frameworks:
+> HTML / CSS
+> JS
+> JQuery
+> Bootstrap
+> Photoshop
+> Selenium [Firefoxaddon](Testing)
+> Equlipse
+> Officeapplikationen
+> Sublimetext 2
+> Lifecode
+> SNAP Visuelles Programmieren

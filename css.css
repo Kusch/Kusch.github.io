@@ -35,9 +35,11 @@ hr
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    min-width: 600px;
 }
 footer
 {
+    padding-left: 5px;
     border-top: 1px solid #000;
     height: 40px;
     background-color: rgb(161, 209, 222);
@@ -70,10 +72,18 @@ footer
 }
 .grid_left, .grid_right
 {
-    background-color: #dedede;
+    background-color: #fff;/*#dedede;*/
     width: 50%;
     max-width: 300px;
     min-width: 300px;
+}
+.td_projects{
+width: 50%;
+}
+#tbl_projects
+{
+    max-width: 600px;
+    min-width: 600px;
 }
 .grid_right
 {
@@ -109,6 +119,44 @@ footer
     max-height:200px;
     max-width: 100%;
 }
+#div_praktikum_header
+{
+    border: 1px solid #4d846c;
+    width: 100%;
+    min-width: 390px;
+    background-color: #FFF;
+    padding: 2px 0px 2px 3px;
+}
+#div_praktikum
+{
+    width: 100%;
+    background-color: #FFF;
+}
+#txt_praktikum
+{
+    width: 99%;
+    padding: 5px;
+    border: none;
+    background-color: #E0F9DA;
+    display:none;
+    border-bottom: 1px solid #4d846c;
+    border-left: 1px solid #4d846c;
+    border-right: 1px solid #4d846c;
+    height: 290px;
+    min-width: 390px;
+    margin-left: 4px;
+}
+.btn_praktikum
+{
+  height: 20px;
+  float: right;
+  margin-top: -15px;
+  margin-right: 5px;
+  border: 1px solid #4d846c;
+  border-radius: 4px;
+  width: 30px;
+  background-color: transparent;
+}
 #div_changelog
 {
   max-height:200px;
@@ -118,7 +166,6 @@ footer
   margin-top: 10px;
   border: 1px solid  #4d846c;
 }
-
 #div_changelog
 {
   background-color: rgb(161, 209, 222);
