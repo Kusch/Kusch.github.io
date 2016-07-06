@@ -167,13 +167,10 @@ width: 50%;
 {
   height:116px;
   max-height:200px;
-  width: 260px;
+  width: 300px;
   overflow: auto;
   float:left;
   border: 1px solid  #4d846c;
-}
-#div_changelog
-{
   background-color: #e6f5f9;
 }
 #tbl_changelog

@@ -17,7 +17,8 @@
     {VNR: "0.4.0", TITLE: "Changelog", DATE: "26.06.2016"},
     {VNR: "0.4.2", TITLE: "github upload", DATE: "27.06.2016"},
     {VNR: "0.5.0", TITLE: "added 'praktikum'", DATE: "04.07.2016"},
-    {VNR: "0.5.1", TITLE: "added 'news'", DATE: "04.07.2016"}
+    {VNR: "0.5.1", TITLE: "added 'news'", DATE: "04.07.2016"},
+     {VNR: "0.5.1.2", TITLE: "bugfix & design", DATE: "06.07.2016"}
   ];
 
 function main(){
@@ -71,7 +72,7 @@ function getProjects()
 
 function getChangelog()
 {
-  var html1 = "<tr><td style='font-style: italic;'>"
+  var html1 = "<tr><td style='font-style: italic;text-align: left;padding-left:5px;'>"
   var html2 = "</td><td style='text-align: left; padding: 0px 0px 0px 15px;'>";
   var html3 = "</td><td style='font-size: 12px;'>";
   var html4 = "</tr>";
