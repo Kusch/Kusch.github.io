@@ -101,16 +101,18 @@ function show_bericht(){
 }
 function myMove() {
     move();
-  var elem = document.getElementById("myAnimation");   
+  var elem = document.getElementById("myAnimation"); 
+  var elem2 = document.getElementById("myAnimation2");     
   var pos = 0;
-  var id = setInterval(frame, 10);
+  var id = setInterval(frame, 6);
   function frame() {
     if (pos == 180) {
       clearInterval(id);
     } else {
       pos++; 
-      elem.style.top = pos + 'px'; 
+     // elem.style.bottom = pos + 'px'; 
       elem.style.left = pos + 'px'; 
+      elem2.style.right = pos + 'px'; 
     }
   }
 }

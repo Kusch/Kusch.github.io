@@ -20,7 +20,11 @@ h2{
 }
 hr
 {
-    margin: 5px 0px;
+    margin: 20px 0px;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
 }
 #body
 {
@@ -45,6 +49,8 @@ footer
     background-color: rgb(161, 209, 222);
     z-index: 10000;
     position: relative;
+    background-image: url('./Images/silver01.jpg');
+    background-size: 120px;
 }
 .img
 {
@@ -159,16 +165,16 @@ width: 50%;
 }
 #div_changelog
 {
+  height:116px;
   max-height:200px;
   width: 260px;
   overflow: auto;
- 
-  margin-top: 10px;
+  float:left;
   border: 1px solid  #4d846c;
 }
 #div_changelog
 {
-  background-color: rgb(161, 209, 222);
+  background-color: #e6f5f9;
 }
 #tbl_changelog
 {
@@ -189,10 +195,23 @@ width: 50%;
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 100%;
-        min-width: 100%;
+        height: auto;
+        width: 100%;
         z-index: -1000;
       }
+      .changelog_wrapper
+      {
+        padding-top: 10px;
+      }
+      .moviecontainer
+      {
+        overflow: hidden;
+        width:50px;
+        border-bottom: 1px solid #4d846c;
+        border-right: 1px solid #4d846c;
+      }
+      #movie1{width: 200px;}
+      #movie2{height: 116px; border-top: 1px solid #4d846c;}
 /*=============== ANIMATIONEN ===============*/
 .btn
 {
@@ -200,7 +219,7 @@ width: 50%;
 }
 #myContainer {
   width: 200px;
-  height: 200px;
+  height: 50px;
   position: relative;
   background: #8de4cd;
 }
@@ -209,6 +228,14 @@ width: 50%;
   height: 20px;
   position: absolute;
   background-color: #4d846c;
+}
+#myAnimation2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: yellowgreen;
+  margin-top: 30px;
+  right: 0;
 }
 #myProgress {
     position: relative;
